@@ -13,4 +13,14 @@ class PrimeQServlet extends PrimeqStack {
     </html>
   }
 
+  get("/prime/:i"){
+
+  }
+
+  get("/even/:i"){
+    <html>
+      <h1>The nth even number is {com.primeq.Evens.get(params("i").toInt)}</h1>
+    </html>
+  }
+
 }
